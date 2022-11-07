@@ -31,11 +31,11 @@
 
 .container .content h3{
    font-size: 30px;
-   color: rgb(35, 35, 228); 
+   color:  #0275d8; 
 }  
 
 .container .content h3 span {
-    background: rgb(35, 35, 228);
+    background:  #0275d8;
     color: white;
     padding: 0 15px;
     border-radius: 5px;
@@ -55,7 +55,7 @@
     display: inline-block;
     padding: 5px 10px;
     font-size: 20px;
-    background: rgb(35, 35, 228);
+    background:  #0275d8;
     color: white;
     border-radius: 5px;
     margin: 0 5px;
@@ -80,7 +80,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(35, 35, 228);
+    background-color:  #0275d8;
     color: #fff;
 }
 
@@ -140,6 +140,3 @@ body{
         display: none;
 }
 }
-
-/* navbar */
-/*  */

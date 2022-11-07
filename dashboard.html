@@ -20,18 +20,20 @@
         <label for="search"><i class='fa fa-search'></i></label>
       </div>
       <i class="fas fa-bell"></i>
+    </div>
+    <div class="main-content">
       <div class="sidebar">
         <ul>
-          <li>
-            <a href="#">
+          <li class="active">
+            <a href="dashboard.html">
               <i class="fas fa-th-large"></i>
               <div>DASHBOARD</div>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="doctors.html">
               <i class="fas fa-user-doctor"></i>
-              <div>DOCTOR</div>
+              <div>DOCTORS</div>
             </a>
           </li>
           <li>
@@ -41,54 +43,97 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="analytics.html">
               <i class="fas fa-chart-bar"></i>
               <div>ANALYTICS</div>
             </a>
           </li>
       </div>
       <div class="main">
+        <div class="main-sect-header">
+          <p>Doctors</p>
+          <p><a href="doctors.html">See more...</a></p>
+        </div>
         <div class="cards">
           <div class="card">
-            <div class="card-content">
-              <div class="number">0044</div>
-              <div class="card-name">Dr. Abulfail Ahmed Rufai</div>
+            <div class="edit">
+             <div class="card-content">
+               <div class="number">0044</div>
+               <div class="card-name">Dr. Ahmed Rufai Jr</div>   
+             </div>
+             <div class="icon-box">
+               <i class="fas fa-user-doctor"></i>
+             </div>
             </div>
-            <div class="icon-box">
-              <i class="fas fa-user-doctor"></i>
+             <div class="card-btns">
+               <i class="fas fa-pencil"></i>
+               <i class="fas fa-trash"></i>
+              </div>
+           </div>
+           <div class="card">
+            <div class="edit">
+             <div class="card-content">
+               <div class="number">0054</div>
+               <div class="card-name">Dr. Francine Kaba</div>   
+             </div>
+             <div class="icon-box">
+               <i class="fas fa-user-doctor"></i>
+             </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="number">0054</div>
-              <div class="card-name">Dr. Francine Kaba</div>
+             <div class="card-btns">
+               <i class="fas fa-pencil"></i>
+               <i class="fas fa-trash"></i>
+              </div>
+           </div>
+           <div class="card">
+            <div class="edit">
+             <div class="card-content">
+               <div class="number">0064</div>
+               <div class="card-name">Dr. Samuel Asare</div>   
+             </div>
+             <div class="icon-box">
+               <i class="fas fa-user-doctor"></i>
+             </div>
             </div>
-            <div class="icon-box">
-              <i class="fas fa-user-doctor"></i>
+             <div class="card-btns">
+               <i class="fas fa-pencil"></i>
+               <i class="fas fa-trash"></i>
+              </div>
+           </div>
+           <div class="card">
+            <div class="edit">
+             <div class="card-content">
+               <div class="number">0064</div>
+               <div class="card-name">Dr. Eric Manu</div>   
+             </div>
+             <div class="icon-box">
+               <i class="fas fa-user-doctor"></i>
+             </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="number">0064</div>
-              <div class="card-name">Dr. Samuel Nana Baffour Asare </div>
-            </div>
-            <div class="icon-box">
-              <i class="fas fa-user-doctor"></i>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="number">0074</div>
-              <div class="card-name">Dr. Eric Manu</div>
-            </div>
-            <div class="icon-box">
-              <i class="fas fa-user-doctor"></i>
-            </div>
-          </div>
+             <div class="card-btns">
+               <i class="fas fa-pencil"></i>
+               <i class="fas fa-trash"></i>
+              </div>
+           </div>
         </div>
+        <div class="main-sect-header">
+          <p>Analytics</p>
+          <p><a href="analytics.html">See more...</a></p>
+        </div>
+        <div class="charts">
+          <div class="chart">
+           <h2>Appointments(past 6 months)</h2>
+           <canvas id="lineChart"></canvas>
+          </div>
+          <div class="chart" id="doughnut-chart">
+            <h2>Patients' Attendance</h2>
+            <canvas id="doughnut"></canvas>
+          </div>     
+       </div>
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  <script src="chart1.js"></script>
 </body>
-
 </html>

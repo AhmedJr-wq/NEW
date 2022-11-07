@@ -2,46 +2,45 @@
 ![Amalitech](amalitech.jpeg)
 
 # Project Description
-Give a brief description of what the project does 
+The Embedded Amalitech Clinic is a web application that allows patients to be able to book three main types of appointments namely: immunization, checkups and sick appointments. The patient is also able choose the doctor they are coming to see. The doctor on the other hand can easily view the appointments they have. They are also able to send a message to the admin and cancel appointments in case of emergencies. The facility admin is able to add or remove doctors from the database, view messages from the doctor and most importantly, be able to schedule appointments.
 
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS, Vuejs
+**Client:** HTML, CSS, Bootstrap, JavaScript
 
-**Server:** Node, Express, Postgres, Python, Redis
+**Server:**  Postgres, Python
 
 ## Features
-1. Local Authentication | email and password
-2. OAuth 2.0 | Google, Facebook, Twitter
+1. Login Authentication | email and password
+2. Appointment scheduling 
 3. File Upload management
-4. Payment management | Stripe, Mobile Money 
+4. Signup Authentication
 5. Email Notification 
-6. Contact Form | mailgun, Sendgrid
-
+6. Contact Form
 
 # Preview
-- [projectname](https://projectname)
+- [Embedded Amalitech Clinic] (https://projectname)
 
 This section should include any type of preview elements that would give an insight into what your 
-submission loks like. It can be GIFs, images, videos, or anything similar.
-
+submission looks like. It can be GIFs, images, videos, or anything similar.
 
 # Project Setup
 This section should cover how to set up and run the project locally.
 
 ## Prerequisites
 If running your submission requires any prerequisites, make sure to list them in this section.
-- Nodejs v14
+- Django
 - Postgres
 
 ## Install Project
 1. Clone the repository:
 ```sh
-git clone https://github.com/
+git clone https://github.com/Amali-Tech/Embedded-Amalitech-Clinic-frontend.git
+git clone https://github.com/Amali-Tech/Embeded-Amalitech-Clinic-backend.git
 ```
 2. Change directory
 ```sh
-cd my-project
+cd EmbeddedAmalitechClinic
 ```
 3. Install dependencies
 ```sh
@@ -56,11 +55,7 @@ npm run start
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
-`DB_NAME`
+`EmbeddedAmalitechClinic`
 
 # API Reference
 
@@ -84,12 +79,14 @@ To run this project, you will need to add the following environment variables to
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
-
 ## Lessons Learned
 
-1. What did you learn while building this project? 
-2. What challenges did you face and how did you overcome them?
-
+1. We still have a lot to learn and a long way to go. 
+2. It is amazing to work in teams.
 # Participants
-- [@CyrilBaah](https://www.github.com/CyrilBaah) | DevOps
+- [@FrancineMaria] (https://github.com/FrancineMaria) 
+- [@SamuelAsare] (https://github.com/SamuelAsare)
+- [@benedictarhin-max] (https://github.com/benedictarhin-max)
+- [@AhmedJr-wq] (https://github.com/AhmedJr-wq)
+- [@ericmanu] (https://github.com/ericmanu)
 
