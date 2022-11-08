@@ -1,134 +1,207 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doctors</title> 
-    <link rel="stylesheet" type="text/css" href="fontawesome.min.css">   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style1.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+<link rel="stylesheet" href="styles.css">
+    <title>Homepage</title>
+  </head>
+  <body>
     
-</head>
-<body> 
-  <div class="container">
-    <div class="topbar">
-      <div class="logo">
-        <h2>Admin</h2>
+
+ <div class="header row no-gutters temp">
+      <div class="image col-md-4">
+        <img
+          id="clinic-logo"
+          class=""
+          src="/images/Amalitech Clinic Logo.png"
+          alt=""
+          width="100"
+          height="100"
+        />
+        <a href="index.html" class="navbar-brand mb-0 h1">EMBEDDED AMALITECH CLINIC</a>
       </div>
-      <div class="search">
-        <input type="text" id="search" placeholder="search here">
-        <label for="search"><i class='fa fa-search'></i></label>
-      </div>
-      <i class="fas fa-bell"></i>
+        <div class="col-md-3"></div>
+        <div class="col-md-5 search">
+          <input type="text" placeholder="  Search..." class="col-md-8">
+        </div>
     </div>
-    <div class="main-content">
-      <div class="sidebar">
-        <ul>
-          <li>
-            <a href="dashboard.html">
-              <i class="fas fa-th-large"></i>
-              <div>DASHBOARD</div>
-            </a>
+
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #027598">
+      <button
+        class="navbar-toggler"
+        type="button"
+        style="background-color: #006992;"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav row">
+          <li class="nav-item dropdown col">
+           <a class="nav-link dropdown-toggle active text-white"
+            href="#" id="navbarDropdown" 
+            role="button" 
+            data-bs-toggle="dropdown" 
+            aria-expanded="false">
+        Care at Amalitech Clinic </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Care at Amalitech</a></li>
+            <li><a class="dropdown-item" href="appointments.html">Appointments</a></li>
+            <li><a class="dropdown-item" href="#">Locations</a></li>
+            <li><a class="dropdown-item" href="#">Patient and Visitor Guide</a></li>
+            <li><a class="dropdown-item" href="#">Medical Departments & Centers</a></li>
+<li><a class="dropdown-item" href="#">Doctors & Medical Staff</a></li>
+          </ul>
           </li>
-          <li class="active">
-            <a href="#">
-              <i class="fas fa-user-doctor"></i>
-              <div>DOCTORS</div>
-            </a>
+          <li class="nav-item dropdown col">
+           <a class="nav-link dropdown-toggle active text-white"
+            href="#" id="navbarDropdown" 
+            role="button" 
+            data-bs-toggle="dropdown" 
+            aria-expanded="false">
+        Health Information </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Diseases and Conditions</a></li>
+            <li><a class="dropdown-item" href="#">Symptoms</a></li>
+           <li><a class="dropdown-item" href="#">Tests & Procedures</a></li>
+            <li><a class="dropdown-item" href="#">Drugs & Supplements</a></li>
+          </ul>
           </li>
-          <li>
-            <a href="#">
-              <i class="fas fa-message"></i>
-              <div>MESSAGES</div>
-            </a>
+         <li class="nav-item dropdown col">
+           <a class="nav-link dropdown-toggle active text-white"
+            href="#" id="navbarDropdown" 
+            role="button" 
+            data-bs-toggle="dropdown" 
+            aria-expanded="false">
+        Give </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Giving to Amalitech</a></li>
+            <li><a class="dropdown-item" href="#">Give Now</a></li>
+            <li><a class="dropdown-item" href="#">Philanthropy In Action</a></li>
+            <li><a class="dropdown-item" href="#">Frequently Asked Questions</a></li>
+            <li><a class="dropdown-item" href="#">Contact Us to Give</a></li>
+          </ul>
           </li>
-          <li>
-            <a href="analytics.html">
-              <i class="fas fa-chart-bar"></i>
-              <div>ANALYTICS</div>
-            </a>
+      <li class="nav-item dropdown col">
+           <a class="nav-link dropdown-toggle active text-white"
+            href="#" id="navbarDropdown" 
+            role="button" 
+            data-bs-toggle="dropdown" 
+            aria-expanded="false">
+        Health Professionals </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Emergency Department</a></li>
+            <li><a class="dropdown-item" href="#">Women & Children</a></li>
+            <li><a class="dropdown-item" href="#">Community Services</a></li>
+            <li><a class="dropdown-item" href="#">Referrals to Specialist Clinincs</a></li>
+          </ul>
           </li>
+          <li class="col">
+            <a class="text-white" href="#" role="button">Contact Us</a>
+          </li>
+        </ul>
+        <div class="col"></div>
+
+        <a href="#" class="login col text-white">Log in to patient account
+          <img src="/images/login.png" alt=""
+        width="50" height="50">
+        </a>
+        
       </div>
-      <div class="main">
-        <div class="cards doctors">
-          <div class="card doctors">
-            <div class="card-content">
-              <div class="number">0044</div>
-              <div class="card-name">Dr. Ahmed Rufai Jr</div>
-            </div>
-            <div class="icon-box">
-              <i class="fas fa-user-doctor"></i>
-            </div>
-          </div>
-          <div class="card doctors">
-            <div class="card-content">
-              <div class="number">0054</div>
-              <div class="card-name">Dr. Francine Kaba</div>
-            </div>
-            <div class="icon-box">
-              <i class="fas fa-user-doctor"></i>
-            </div>
-          </div>
-          <div class="card doctors">
-            <div class="card-content">
-              <div class="number">0064</div>
-              <div class="card-name">Dr. Samuel Asare </div>
-            </div>
-            <div class="icon-box">
-              <i class="fas fa-user-doctor"></i>
-            </div>
-          </div>
-          <div class="card doctors">
-            <div class="card-content">
-              <div class="number">0074</div>
-              <div class="card-name">Dr. Eric Manu</div>
-            </div>
-            <div class="icon-box">
-              <i class="fas fa-user-doctor"></i>
-            </div>
-          </div>
-          <div class="card doctors">
-
-            <div class="card-content">
-              <div class="number">0144</div>
-              <div class="card-name">Dr. Arhin Ben Jr</div>
-            </div>
-            <div class="icon-box">
-              <i class="fas fa-user-doctor"></i>
-            </div>
-
-          </div>
-          <div class="card doctors">
-          <div class="card-content">
-            <div class="number">0384</div>
-            <div class="card-name">Dr. Faisal Sey</div>
-          </div>
-          <div class="icon-box">
-            <i class="fas fa-user-doctor"></i>
-          </div>
-          </div>
-          <div class="card doctors">
-            <div class="card-content">
-              <div class="number">0244</div>
-              <div class="card-name">Dr. Asumah Yaks</div>
-            </div>
-            <div class="icon-box">
-              <i class="fas fa-user-doctor"></i>
-            </div>
-          </div>
-          <div class="card doctors">
-            <div class="card-content">
-              <div class="number">0418</div>
-              <div class="card-name">Dr. Sani Rais</div>
-            </div>
-            <div class="icon-box">
-              <i class="fas fa-user-doctor"></i>
-            </div>
-            </div>
-        </div>    
-      </div>  
+      </div>
+    </nav>
+    <section class="container-fluid">
+     <div class="slogan-image">
+      <img class="doctor" 
+      src="/images/medical-team.jpg" alt=""
+      width="100%" height="100%">
+    </section>
+    <div class="slogan">Your health is our concern</div>
     </div>
-  </div>  
-</body>
+   <br>
+    <h3 class="text-center">Want to see a doctor today? 
+    </h3>
+    <br>
+    <div class="appointment-btn">
+<button type="button" class="btn btn-light btn-lg text-white" style="background-color: #003459;" ><a href="appointments.html" class="booking">Book an appointment</a></button>
+</div>
+<br><br>
 
+  <section class="container-fluid row highlights">
+    <h2>Take charge of your health!</h2>
+    <br>
+<div class="col-md-1"></div>
+
+    <div class="health-tip col-md-2"><img class="highlight-image" src="/Images/diet.jpg" alt=""
+   width="100%"
+   height="200px">
+   <div>
+    Nutrition
+    </div>
+    <br>
+   <button class=health-tip-full>Learn More</button>
+    </div>
+
+<div class="col-md-2"></div>
+
+     <div class="health-tip col-md-2">
+      <img class="highlight-image" src="/Images/exercise.jpg" alt=""
+   width="100%"
+   height="200px">
+      <div>
+      Exercise
+    </div>
+    <br>
+      <button class=health-tip-full>Learn More</button>
+     </div>
+
+     <div class="col-md-2"></div>
+
+      <div class="health-tip col-md-2"><img class="highlight-image" src="/Images/rest.jpg" alt=""
+   width="100%"
+   height="200px">
+        <div>
+Rest   
+ </div>
+ <br>
+      <button class=health-tip-full>Learn More</button>
+
+      </div>
+
+      <div class="col-md-1"></div>
+  </section>
+<br>
+<br>
+  <br>
+<footer class="container-fluid">
+   <div class="row" id="s">
+    <div class="col-md-2">
+      Privacy Policy
+    </div>
+    <div class="col-md-3"></div>
+<div class="col-md-7">
+Copyright 2022. All Reserved By Amalitech Clinic
+    </div>
+   </div>
+  </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
